@@ -1,0 +1,22 @@
+### Test Description
+In the 'DeliveryService.cs' file you will find a method for delivering an order. At a high level the steps for delivering an order are:
+
+ - Lookup the delivery partner that will be delivering the order
+ - Check the delivery partner is able to deliver the order
+ - Add to the delivery partners total orders processed till date and update the delivery partner in the backend
+ 
+What we’d like you to do is refactor the code with the following things in mind:  
+ - Adherence to SOLID principals
+ - Testability  
+ - Readability 
+
+We’d also like you to add some unit tests to the Gardiners.Core.Tests project to show how you would test the code that you’ve produced. The only specific ‘rules’ are:  
+
+ - The solution should build.
+ - The tests should all pass.
+ - You should not change the method signature of the DeliverOrder method.
+ - The requirements should still be met after your refactoring
+
+You are free to use any frameworks/NuGet packages that you see fit.  
+ 
+You should plan to spend around an hour completing the exercise.
